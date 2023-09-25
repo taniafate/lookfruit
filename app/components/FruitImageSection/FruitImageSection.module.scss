@@ -1,0 +1,17 @@
+.fruitImageSection {
+  width: 270px;
+  height: 360px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px 0px rgba(12, 118, 178, 0.25), -4px -4px 10px 0px rgba(12, 118, 178, 0.25);
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .fruitImageSection {
+    margin-top: 8px;
+    width: 280px;
+    height: 360px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px 0px rgba(12, 118, 178, 0.25), -4px -4px 10px 0px rgba(12, 118, 178, 0.25);
+  }
+}

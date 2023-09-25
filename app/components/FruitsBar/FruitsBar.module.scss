@@ -1,0 +1,107 @@
+.fruitsBar {
+  width: 132px;
+  height: 400px;
+  border-radius: 10px;
+  //background: #7fd4ff;
+  background: #52c5ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+
+  .fruitsBarImgUp {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+  }
+
+  .fruitsBarImgDown {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 4px;
+    padding-top: 20px;
+  }
+
+  .fruitsBarText {
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 4px;
+  }
+
+  .fruitsBarImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 11px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .fruitsBar {
+    width: 360px;
+    height: 300px;
+    border-radius: 10px;
+    background: #52c5ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  
+    .fruitsBarImgUp {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      align-content: center;
+      padding-left: 10px;
+      padding-right: 4px;
+      padding-bottom: 4px;
+    }
+  
+    .fruitsBarImgDown {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      align-content: center;
+      padding-left: 10px;
+      padding-right: 4px;
+      padding-top: 20px;
+    }
+  
+    .fruitsBarText {
+      color: white;
+      font-size: 12px;
+      font-weight: normal;
+      margin-bottom: 4px;
+    }
+  
+    .fruitsBarImg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin-left: 11px;
+    }
+  }
+}

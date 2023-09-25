@@ -1,0 +1,100 @@
+.fruitItem {
+  width: 180px;
+  height: 180px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 4px 4px 10px 0px rgba(26, 153, 226, 0.20), -4px -4px 10px 0px rgba(26, 153, 226, 0.20);
+  background: #12a6f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 4px;
+
+  .fruitItemName {
+    font-size: 16px;
+    font-weight: 600;
+    
+  }
+
+  .fruitItemFamily {
+    font-size: 11px;
+    font-weight: 400;
+    margin: 2px 0 4px 0;
+  }
+
+  .fruitItemParams {
+    margin: 3px 0 3px 0;
+
+
+    .fruitItemNutritions {
+      font-size: 12px;
+      font-weight: 500;
+      margin: 3px 0 5px 0;
+    }
+
+    .fruitItemList {
+
+
+
+      .fruitItemPoint {
+        font-size: 13px;
+        font-weight: 300;
+        margin: 2px;
+      }
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .fruitItem {
+    width: 180px;
+    height: 200px;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 4px 4px 10px 0px rgba(26, 153, 226, 0.20), -4px -4px 10px 0px rgba(26, 153, 226, 0.20);
+    background: #12a6f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 2px 2px 2px 2px;
+  
+    .fruitItemName {
+      font-size: 16px;
+      font-weight: 600;
+      
+    }
+  
+    .fruitItemFamily {
+      font-size: 11px;
+      font-weight: 400;
+      margin: 2px 0 4px 0;
+    }
+  
+    .fruitItemParams {
+      margin: 3px 0 3px 0;
+  
+  
+      .fruitItemNutritions {
+        font-size: 12px;
+        font-weight: 500;
+        margin: 3px 0 5px 0;
+      }
+  
+      .fruitItemList {
+  
+  
+  
+        .fruitItemPoint {
+          font-size: 13px;
+          font-weight: 300;
+          margin: 2px;
+        }
+      }
+    }
+  }
+}

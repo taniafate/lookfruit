@@ -1,0 +1,23 @@
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 200px;
+
+  .socialMediaButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+
+    &:hover {
+      scale: 1.06;
+      transition:cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    
+    &:focus {
+      scale: 1;
+    }
+  }
+}

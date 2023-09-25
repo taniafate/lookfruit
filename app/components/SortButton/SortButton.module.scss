@@ -1,0 +1,23 @@
+.sortButton {
+  width: 88px;
+  height: 26px;
+  background: rgb(246, 253, 255);
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 400;
+  color: #048dd2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  &:hover {
+    background: #27b7ff;
+    color: #ffffff;
+  }
+
+  &:focus {
+    background: #27b7ff;
+    color: #ffffff;
+  }
+}

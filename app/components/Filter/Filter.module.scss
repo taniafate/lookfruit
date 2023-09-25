@@ -1,0 +1,14 @@
+.filterBox {
+  width: 546px;
+  height: 46px;
+  border: 2px solid #A9E3FF;
+  border-radius: 12px;
+  margin: 4px 4px 4px 4px;
+  position: sticky;
+  top: 0px;
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #089ae4;
+}
