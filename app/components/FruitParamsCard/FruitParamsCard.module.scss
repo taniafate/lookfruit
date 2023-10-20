@@ -34,7 +34,7 @@
 /* Mobile */
 @media (max-width: 700px) {
   .fruitParamsCard {
-    width: 280px;
+    width: 340px;
     height: 338px;
     border-radius: 12px;
     background: #12a6f1;
@@ -47,7 +47,7 @@
   
     &:hover {
       box-shadow: 2px 2px 10px 0px rgba(26, 153, 226, 0.15), -2px -2px 10px 0px rgba(26, 153, 226, 0.15);
-      width: 100%;
+      width: 340px;
     }
   
     .fruitParamsCardTitle {
