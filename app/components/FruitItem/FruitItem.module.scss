@@ -51,7 +51,7 @@
 @media (max-width: 700px) {
   .fruitItem {
     width: 180px;
-    height: 200px;
+    height: 300px;
     border-radius: 12px;
     color: white;
     box-shadow: 4px 4px 10px 0px rgba(26, 153, 226, 0.20), -4px -4px 10px 0px rgba(26, 153, 226, 0.20);
@@ -61,28 +61,28 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    margin: 2px 2px 2px 2px;
+    margin: 2px 4px 2px 4px;
   
     .fruitItemName {
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 600;
       
     }
   
     .fruitItemFamily {
-      font-size: 11px;
+      font-size: 13px;
       font-weight: 400;
-      margin: 2px 0 4px 0;
+      margin: 4px 0 10px 0;
     }
   
     .fruitItemParams {
-      margin: 3px 0 3px 0;
+      margin: 6px 0 4px 0;
   
   
       .fruitItemNutritions {
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 500;
-        margin: 3px 0 5px 0;
+        margin: 8px 0 10px 0;
       }
   
       .fruitItemList {
@@ -90,9 +90,9 @@
   
   
         .fruitItemPoint {
-          font-size: 13px;
+          font-size: 15px;
           font-weight: 300;
-          margin: 2px;
+          margin: 4px 0 4px 0;
         }
       }
     }

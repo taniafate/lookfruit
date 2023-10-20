@@ -35,7 +35,7 @@
 @media (max-width: 700px) {
   .fruitParamsCard {
     width: 280px;
-    height: 302px;
+    height: 338px;
     border-radius: 12px;
     background: #12a6f1;
     display: flex;
@@ -47,20 +47,20 @@
   
     &:hover {
       box-shadow: 2px 2px 10px 0px rgba(26, 153, 226, 0.15), -2px -2px 10px 0px rgba(26, 153, 226, 0.15);
-      width: 102%;
+      width: 100%;
     }
   
     .fruitParamsCardTitle {
       margin-top: 8px;
       margin-bottom: 16px;
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 400;
       color: white;
       align-self: center;
     }
   
     .fruitParamsCardText {
-      font-size: 13px;
+      font-size: 15px;
       font-weight: 400;
       margin-bottom: 12px;
     }

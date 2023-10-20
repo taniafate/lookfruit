@@ -54,7 +54,7 @@
   .fruitsMainBlock {
     box-sizing: border-box;
     width: 360px;
-    height: 240px;
+    height: 340px;
     background: #52c5ff;
     border-radius: 10px;
     margin-right: 0px;
@@ -69,17 +69,17 @@
 
     .fruitsMainBlockFilter {
       width: 100px;
-      height: 200px;
+      height: 300px;
       border: 2px solid #A9E3FF;
       border-radius: 10px;
       margin: 2px 2px 2px 2px;
-      padding: 4px;
+      padding: 8px 4px;
       position: sticky;
       left: 0px;
       backdrop-filter: blur(3px);
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       color: #089ae4;
       z-index: 1;
@@ -87,7 +87,7 @@
       .filterTitle {
         width: 60px;
         height: 26px;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 500;
         color: white;
         display: flex;

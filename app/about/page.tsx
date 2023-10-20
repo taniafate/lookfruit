@@ -11,6 +11,10 @@ export default function About() {
   return (
     <div className={styles.aboutContainer}>
       <AboutMainBlock />
+      <div className={styles.aboutPagePic}>
+        <span className={styles.aboutPagePicSpanOne}>Have a good time :)</span>
+        <span className={styles.aboutPagePicSpanTwo}>Best wishes!</span>
+      </div>
     </div>
   );
 }

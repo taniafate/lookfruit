@@ -21,3 +21,30 @@
     color: #ffffff;
   }
 }
+
+/* Mobile */
+@media (max-width: 700px) {
+  .sortButton {
+    width: 88px;
+    height: 40px;
+    background: rgb(246, 253, 255);
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #048dd2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  
+    &:hover {
+      background: #27b7ff;
+      color: #ffffff;
+    }
+  
+    &:focus {
+      background: #27b7ff;
+      color: #ffffff;
+    }
+  }
+}

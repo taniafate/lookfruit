@@ -1,5 +1,9 @@
 .aboutContainer {
   box-sizing: border-box;
+
+  .aboutPagePic {
+    display: none;
+  }
 }
 
 .aboutLoading {
@@ -13,7 +17,37 @@
   .aboutContainer {
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+
+    .aboutPagePic {
+      box-sizing: border-box;
+      display: block;
+      background: #000;
+      background-image: url('../../public/BG_About.png');
+      height: 210px;
+      width: 360px;
+      border-radius: 10px;
+      position: relative;
+      margin-top: -172px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      .aboutPagePicSpanOne {
+        color: white;
+        font-size: 14px;
+      }
+
+      .aboutPagePicSpanTwo {
+        color: white;
+        font-size: 14px;
+      }
+    }
   }
 }

@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006 -s public",
+    "build-storybook": "storybook build -s public"
   },
   "dependencies": {
     "@types/node": "20.4.2",
@@ -23,9 +25,45 @@
     "zustand": "^4.3.9"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.4.5",
+    "@storybook/addon-interactions": "^7.4.5",
+    "@storybook/addon-links": "^7.4.5",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.4.5",
+    "@storybook/nextjs": "^7.4.5",
+    "@storybook/react": "^7.4.5",
+    "@storybook/testing-library": "^0.2.1",
     "@svgr/webpack": "^8.0.1",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
-    "eslint": "^8.45.0"
+    "eslint": "^8.45.0",
+    "eslint-plugin-storybook": "^0.6.14",
+    "loki": "^0.32.0",
+    "storybook": "^7.4.5"
+  },
+  "overrides": {
+    "loki": {
+      "@storybook/react": "$@storybook/react"
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
+  },
+  "loki": {
+    "configurations": {
+      "chrome.laptop": {
+        "target": "chrome.app",
+        "width": 1366,
+        "height": 768,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "chrome.iphone7": {
+        "target": "chrome.app",
+        "preset": "iPhone 7"
+      }
+    }
   }
 }

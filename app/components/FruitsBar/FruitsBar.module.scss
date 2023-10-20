@@ -55,7 +55,7 @@
 @media (max-width: 700px) {
   .fruitsBar {
     width: 360px;
-    height: 300px;
+    height: 210px;
     border-radius: 10px;
     background: #52c5ff;
     display: flex;
@@ -64,6 +64,8 @@
     text-align: center;
     align-items: center;
     align-content: center;
+    //padding-top: 20px;
+    //padding-bottom: 20px;
   
     .fruitsBarImgUp {
       width: 100%;
@@ -75,6 +77,7 @@
       padding-left: 10px;
       padding-right: 4px;
       padding-bottom: 4px;
+      margin-top: 8px;
     }
   
     .fruitsBarImgDown {
@@ -91,7 +94,7 @@
   
     .fruitsBarText {
       color: white;
-      font-size: 12px;
+      font-size: 14px;
       font-weight: normal;
       margin-bottom: 4px;
     }

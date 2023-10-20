@@ -40,19 +40,19 @@
     box-sizing: border-box;
     color: white;
     width: 360px;
-    height: 554px;
+    height: 340px;
     background: #52c5ff;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 12px 12px 12px 12px;
+    padding: 8px 8px 8px 8px;
   
     .aboutMainBlockText {
-      margin-top: 118px;
-      margin-bottom: 118px;
-      font-size: 13px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      font-size: 14px;
       color: white;
       display: flex;
       flex-direction: column;
@@ -63,11 +63,11 @@
       z-index: 0;
   
       .aboutMainBlockTextPart{
-        margin: 5px 10px;
+        margin: 6px 12px;
       }
     }
   
-    .aboutMainBlockSpan {
+    .aboutMainBlockSpanTwo {
       align-self: self-end;
     }
   }
